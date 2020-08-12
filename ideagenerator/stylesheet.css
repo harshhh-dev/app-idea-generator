@@ -25,17 +25,19 @@ body {
 	
 	touch-action: none;
 
-	border: 1px solid #ffffff;
-	color: #ffffff;
+	border: 1px solid #007BA6;
+	color: #007BA6;
 	background: none;
 	padding: 10px 20px;
 	font-size: 20px;
 	font-family: monospace;
 	
 	cursor: pointer;
-	margin: 10px;
+	margin: 10%;
 	transition: 0.8s;
-	position: relative;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -50px;
 	overflow: hidden;
 
 	/* Disable text selection: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
@@ -48,6 +50,7 @@ body {
 	
 	
 }
+
 .button:hover {
   color: #343434;
   border: 1px solid #343434;
