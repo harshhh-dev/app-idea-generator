@@ -72,7 +72,17 @@ let app = [
     'Rotten Tomatoes',
     'Britannica',
     'PayPal',
-    'IGN'
+    'IGN',
+    'Ola',
+    'Oyo',
+    'Baidu',
+    'Tik Tok',
+    'Notion',
+    'Robinhood',
+    'Paytm',
+    'Aliexpress',
+    'OkCupid'
+    
 ]
 
 let thing = [
@@ -151,7 +161,13 @@ let thing = [
     'Basketball players',
     'Athletes',
     'Golfers',
-    'Swimmers'
+    'Swimmers',
+    'redditors',
+    'bankers',
+    'investors',
+    'loners',
+    'vegans'
+    
 ]
 
 function GenerateAppIdea() {
