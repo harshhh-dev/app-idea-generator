@@ -156,15 +156,28 @@ let thing = [
 
 
 const checkLS = () => {
-    let idea = localStorage.getItem("idea");
-    if(idea != null){
+    let idea = localStorage.getItem('idea');
+    if (idea) {
         document.getElementById('idea').innerHTML = idea;
+    }
+    // sessionStorage.setItem("refresh", "true");
+}
+
+ 
+window.onload = function(){
+    let reloading = sessionStorage.getItem("initialLoad");
+    if(reloading){
+        sessionStorage.removeItem("reloading");
+        checkLS();
     }
 }
 
-window.onload = checkLS;
 
 const GenerateAppIdea = () => {
+    // if(sessionStorage.getItem('refresh')){
+    //     checkLS();
+    // }
+    sessionStorage.setItem("initialLoad", "true");
     let appType = Math.floor(Math.random() * app.length)
     let thingType = Math.floor(Math.random() * thing.length)
     if (app[appType].startsWith('A') || app[appType].startsWith('E') || app[appType].startsWith('I') || app[appType].startsWith('O') || app[appType].startsWith('U')) {
