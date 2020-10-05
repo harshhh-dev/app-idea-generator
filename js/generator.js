@@ -158,7 +158,14 @@ function GenerateAppIdea() {
     let appType = Math.floor(Math.random() * app.length)
     let thingType = Math.floor(Math.random() * thing.length)
 
-    let appIdea = `A ${app[appType]} for ${thing[thingType]}.`
+    if (app[appType].startsWith('A') || app[appType].startsWith('E') || app[appType].startsWith('I') || app[appType].startsWith('O') || app[appType].startsWith('U')) {
+        let appIdea = `An ${app[appType]} for ${thing[thingType]}.`
 
-    document.getElementById('idea').innerHTML = appIdea;
+        document.getElementById('idea').innerHTML = appIdea;
+    }
+    else {
+        let appIdea = `A ${app[appType]} for ${thing[thingType]}.`
+
+        document.getElementById('idea').innerHTML = appIdea;
+    }
 }

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$darktext-colour: rgb(133, 206, 255);
+$box-shadow-colour-dark: rgba(255, 255, 255, 0.05);
+$box-shadow-colour-dark-secondary: rgba(0, 0, 0, 0.5);
+
+.dark {
+    background: rgb(36, 32, 39);
+    color: $darktext-colour;
+}
+
+.dark-button {
+    color: rgb(255, 186, 101);
+    position: absolute;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 46%;
+    transform: scale(2);
+    border: none;
+    background: none;
+    box-shadow: -7px -7px 10px $box-shadow-colour-dark,
+                7px 7px 15px $box-shadow-colour-dark-secondary;
+}
+
+.dark-button:hover {
+    box-shadow: 7px 7px 10px $box-shadow-colour-dark,
+    -7px -7px 15px $box-shadow-colour-dark-secondary;
+}
+
+.dark-text {
+    font-size: 60px;
+    text-align: center;
+    transition: 0.2s linear all;
+}
+
+.dark-text:hover {
+    color: gray;
+    cursor: pointer;
+}
