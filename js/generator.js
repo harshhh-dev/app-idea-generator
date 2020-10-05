@@ -154,18 +154,28 @@ let thing = [
     'Swimmers'
 ]
 
-function GenerateAppIdea() {
+
+const checkLS = () => {
+    let idea = localStorage.getItem("idea");
+    if(idea != null){
+        document.getElementById('idea').innerHTML = idea;
+    }
+}
+
+window.onload = checkLS;
+
+const GenerateAppIdea = () => {
     let appType = Math.floor(Math.random() * app.length)
     let thingType = Math.floor(Math.random() * thing.length)
-
     if (app[appType].startsWith('A') || app[appType].startsWith('E') || app[appType].startsWith('I') || app[appType].startsWith('O') || app[appType].startsWith('U')) {
         let appIdea = `An ${app[appType]} for ${thing[thingType]}.`
-
+        localStorage.setItem("idea", appIdea);
         document.getElementById('idea').innerHTML = appIdea;
     }
     else {
         let appIdea = `A ${app[appType]} for ${thing[thingType]}.`
-
+        localStorage.setItem("idea", appIdea);
         document.getElementById('idea').innerHTML = appIdea;
     }
+
 }
