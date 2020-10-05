@@ -160,23 +160,18 @@ const checkLS = () => {
     if (idea) {
         document.getElementById('idea').innerHTML = idea;
     }
-    // sessionStorage.setItem("refresh", "true");
 }
 
  
 window.onload = function(){
     let reloading = sessionStorage.getItem("initialLoad");
     if(reloading){
-        sessionStorage.removeItem("reloading");
         checkLS();
     }
 }
 
 
 const GenerateAppIdea = () => {
-    // if(sessionStorage.getItem('refresh')){
-    //     checkLS();
-    // }
     sessionStorage.setItem("initialLoad", "true");
     let appType = Math.floor(Math.random() * app.length)
     let thingType = Math.floor(Math.random() * thing.length)
