@@ -160,6 +160,8 @@ const checkLS = () => {
     if (idea) {
         document.getElementById('idea').innerHTML = idea;
     }
+    let color = localStorage.getItem("theme");
+    checkColorScheme(color);
 }
 
  
