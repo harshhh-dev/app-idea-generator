@@ -3,9 +3,9 @@
 Thank you for your interest in wanting to contribute to the comment of code project! Before starting, it is my wish you take a quick peek at these 
 guidelines I have set for the contributors of this project.
 
-1. [Issues]
-2. [Pull requests]
-3. [Guide for Noobs]
+1. Issues
+2. Pull requests
+3. Guide for Noobs
 
 ## Issues 
 
@@ -41,7 +41,3 @@ Contributing for the first time? I have you covered :wink:
   - Create a pull request. 
   
  You're all set now :smile:
-
-[Issues]: https://github.com/harshhh-dev/app-idea-generator/new/master#issues
-[Pull requests]: https://github.com/harshhh-dev/app-idea-generator/new/master#pull-requests
-[Guide for Noobs]: https://github.com/harshhh-dev/app-idea-generator/new/master#guide-for-noobs
