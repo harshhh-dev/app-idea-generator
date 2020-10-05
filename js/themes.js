@@ -1,6 +1,6 @@
 var darkMode = false
 
-function checkColorScheme(color){
+const checkColourScheme = color => {
     if(color == "light"){
         document.getElementById('body').className = 'light'
 
@@ -22,7 +22,7 @@ function checkColorScheme(color){
 }
 
 
-function ChangeColourScheme() {
+changeColourScheme = () => {
     if (darkMode) {
         document.getElementById('body').className = 'light'
 
