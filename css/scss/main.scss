@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$darktext-colour: rgb(133, 206, 255);
+$box-shadow-colour-dark: rgba(255, 255, 255, 0.05);
+$box-shadow-colour-dark-secondary: rgba(0, 0, 0, 0.5);
+
+* {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.dark {
+    background: rgb(36, 32, 39);
+    color: $darktext-colour;
+}
+
+.dark-button {
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 46%;
+    transform: scale(2);
+    border: none;
+    background: none;
+    box-shadow: -5px -5px 10px $box-shadow-colour-dark,
+                5px 5px 15px $box-shadow-colour-dark-secondary;
+}
+
+.dark-text {
+    font-size: 8vw;
+    text-align: center;
+}
+
+.light {
+    background: rgb(223, 248, 255);
+}
