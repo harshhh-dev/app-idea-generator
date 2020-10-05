@@ -12,7 +12,7 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
   
  # Demo
  
- A live demo of the project could be found here!
+ A live demo of the project could be found [here!]
  
  # Goal
  
@@ -22,3 +22,4 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
  [Code of Conduct]: https://github.com/harshhh-dev/app-idea-generator/blob/master/CODE_OF_CONDUCT.md
  [License]: https://github.com/harshhh-dev/app-idea-generator/blob/master/LICENSE
  [Contributing]: https://github.com/harshhh-dev/app-idea-generator/blob/master/Contributing.md
+ [here]: harshhhh-dev.github.io/app-idea.generator
