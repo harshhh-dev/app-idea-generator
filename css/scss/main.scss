@@ -8,6 +8,14 @@
     width: 90%;
     position: absolute;
     margin-top: 10%;
+
+    .site-logo {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
 }
 
 .toggle {
