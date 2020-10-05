@@ -1,5 +1,6 @@
-/* Themes */
+/* Main Stylesheet */
 @import url('./scss/main.css');
 
-/* Main Stylesheet */
-@import url('./scss/darktheme.css');
+/* Themes */
+@import url('./scss/themes/darktheme.css');
+@import url('./scss/themes/lighttheme.css')

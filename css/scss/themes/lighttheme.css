@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.light {
+  background: #e5fcff;
+  color: #85ceff;
+}
+
+.light-button {
+  color: #00eeff;
+  position: absolute;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 46%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  border: none;
+  background: none;
+  -webkit-box-shadow: -7px -7px 10px #fff, 7px 7px 15px rgba(70, 70, 70, 0.15);
+          box-shadow: -7px -7px 10px #fff, 7px 7px 15px rgba(70, 70, 70, 0.15);
+}
+
+.light-button:hover {
+  -webkit-box-shadow: 7px 7px 10px #fff, -7px -7px 15px rgba(70, 70, 70, 0.15);
+          box-shadow: 7px 7px 10px #fff, -7px -7px 15px rgba(70, 70, 70, 0.15);
+}
+
+.light-text {
+  font-size: 60px;
+  text-align: center;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.light-text:hover {
+  color: gray;
+  cursor: pointer;
+}
+/*# sourceMappingURL=lighttheme.css.map */
