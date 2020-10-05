@@ -72,7 +72,18 @@ let app = [
     'Rotten Tomatoes',
     'Britannica',
     'PayPal',
-    'IGN'
+    'IGN',
+    'Grab',
+    'Steam',
+    'Gojek',
+    'TikTok',
+    'Airbnb',
+    'Line',
+    'KakaoTalk',
+    'Naver',
+    'Shopee',
+    'Amazon',
+    'Udemy',
 ]
 
 let thing = [
