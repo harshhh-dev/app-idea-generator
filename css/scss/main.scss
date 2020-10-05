@@ -9,3 +9,18 @@
     position: absolute;
     margin-top: 10%;
 }
+
+.toggle {
+    font-weight: bolder;
+    color: rgb(133, 206, 255);
+    background: none;
+    border: none;
+    margin-top: -10%;
+    font-size: 24px;
+    transition: 0.2s linear all;
+}
+
+.toggle:hover {
+    cursor: pointer;
+    color: gray;
+}
