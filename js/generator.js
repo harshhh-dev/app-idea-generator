@@ -78,7 +78,11 @@ let app = [
     'Firefox',
     'GitLab',
     'Booking.com',
-    'eBay'
+    'eBay',
+    'Dashlane',
+    'LastPass',
+    'Strava',
+    'TikTok'
 ]
 
 let thing = [
