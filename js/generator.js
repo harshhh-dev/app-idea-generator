@@ -164,7 +164,14 @@ let thing = [
     'Swimmers',
     'eating',
     'enjoying a holiday',
-    'spending time with friends'
+    'spending time with friends',
+    'watching dog videos',
+    'contributing to opensource',
+    'brokers',
+    'creating content',
+    'watch a movie',
+    'working',
+    'writing'
 ]
 
 
