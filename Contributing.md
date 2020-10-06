@@ -22,7 +22,7 @@ If you want to fix a bug on the site, go ahead and make a pull request!
 
 If you want to add a feature, take some time to talk about it in Issues first :smile:
 
-If you want to add onto the categories, go ahead and do so :)
+If you want to add onto the categories, go ahead and do so (make sure your add at least 10 apps *and* 10 things):)
 
 We review every pull request, and I would appreciate it if you would accept the changes that we propose during our reviews.
 
