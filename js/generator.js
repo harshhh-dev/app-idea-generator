@@ -157,7 +157,10 @@ let thing = [
     'Basketball players',
     'Athletes',
     'Golfers',
-    'Swimmers'
+    'Swimmers',
+    'eating',
+    'enjoying a holiday',
+    'spending time with friends'
 ]
 
 
