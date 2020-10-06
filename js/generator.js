@@ -72,7 +72,13 @@ let app = [
     'Rotten Tomatoes',
     'Britannica',
     'PayPal',
-    'IGN'
+    'IGN',
+    'Apple Music',
+    'Snapseed',
+    'Firefox',
+    'GitLab',
+    'Booking.com',
+    'eBay'
 ]
 
 let thing = [
@@ -107,7 +113,7 @@ let thing = [
     'early birds',
     'night owls',
     'waiters',
-    'buisnessmen',
+    'businessmen',
     'learning new languages',
     'movie reccomendations',
     'talking',
