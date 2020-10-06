@@ -72,7 +72,17 @@ let app = [
     'Rotten Tomatoes',
     'Britannica',
     'PayPal',
-    'IGN'
+    'IGN',
+    'Apple Music',
+    'Snapseed',
+    'Firefox',
+    'GitLab',
+    'Booking.com',
+    'eBay',
+    'Dashlane',
+    'LastPass',
+    'Strava',
+    'TikTok'
 ]
 
 let thing = [
@@ -107,7 +117,7 @@ let thing = [
     'early birds',
     'night owls',
     'waiters',
-    'buisnessmen',
+    'businessmen',
     'learning new languages',
     'movie reccomendations',
     'talking',
@@ -145,13 +155,23 @@ let thing = [
     'alcoholics',
     'making friends',
     'watching cat videos',
-    'Football (soccer) players',
-    'Soccer (football) players',
-    'American football players',
-    'Basketball players',
-    'Athletes',
-    'Golfers',
-    'Swimmers'
+    'football (soccer) players',
+    'soccer (football) players',
+    'american football players',
+    'basketball players',
+    'athletes',
+    'golfers',
+    'swimmers',
+    'eating',
+    'enjoying a holiday',
+    'spending time with friends',
+    'watching dog videos',
+    'contributing to opensource',
+    'brokers',
+    'creating content',
+    'watch a movie',
+    'working',
+    'writing'
 ]
 
 
