@@ -1,3 +1,4 @@
+$light-theme-font-color : #333;
 * {
     outline: none;
     font-family: 'Poppins', sans-serif;
@@ -31,4 +32,45 @@
 .toggle:hover {
     cursor: pointer;
     color: gray;
+}
+.toggle-control-wrapper{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+    left: 20px;
+    padding: 20px 0;
+    .toggle-text{
+        &.active{
+            color: $light-theme-font-color;
+        }
+    }
+}
+.toggle-wrapper{
+    width: 50px;
+    height: 20px;
+    background-color: #4bb3bc;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 10px;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    &.active{
+        .toggle{
+            left: calc(100% - 20px);
+        }
+    }
+    .toggle{
+        position: absolute;
+        transition: all ease-in-out 0.5s;
+        left: 2px;
+        width: 18px;
+        height: 18px;
+        top: calc(50% - 4px);
+        border-radius: 50%;
+        background-color: #fff;
+        cursor: default;
+    }
 }
