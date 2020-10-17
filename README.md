@@ -22,4 +22,4 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
  [Code of Conduct]: https://github.com/harshhhdev/app-idea-generator/blob/master/CODE_OF_CONDUCT.md
  [License]: https://github.com/harshhhdev/app-idea-generator/blob/master/LICENSE
  [Contributing]: https://github.com/harshhhdev/app-idea-generator/blob/master/Contributing.md
- [here!]: https://harshhh-dev.github.io/app-idea-generator/
+ [here!]: https://harshhhdev.github.io/app-idea-generator/
