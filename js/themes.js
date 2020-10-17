@@ -29,20 +29,20 @@ changeColourScheme = () => {
         document.getElementById('generateButton').className = 'light-button'
         document.getElementById('idea').className = 'light-text'
 
-        document.getElementById('toggle').innerHTML = 'Lights Turned On'
+        // document.getElementById('toggle').innerHTML = 'Lights Turned On'
 
-        document.querySelector(".toggle-wrapper").classList.add("active")
-        document.getElementById('toggle').classList.add("active")
+        document.querySelector(".toggle-wrapper").classList.remove("active")
+        // document.getElementById('toggle').classList.remove("active")
         localStorage.setItem("theme", "light");
         darkMode = false
     } else {
         document.getElementById('body').className = 'dark'
-        document.getElementById('toggle').classList.remove("active")
-        document.querySelector(".toggle-wrapper").classList.remove("active")
+        // document.getElementById('toggle').classList.add("active")
+        document.querySelector(".toggle-wrapper").classList.add("active")
 
         document.getElementById('generateButton').className = 'dark-button'
         document.getElementById('idea').className = 'dark-text'
-        document.getElementById('toggle').innerHTML = 'Lights Turned Off'
+        // document.getElementById('toggle').innerHTML = 'Lights Turned Off'
 
         localStorage.setItem("theme", "dark");
         darkMode = true
