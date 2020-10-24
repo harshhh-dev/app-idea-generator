@@ -39,7 +39,7 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
         <a href="https://github.com/david-webber">
             <img src="https://avatars1.githubusercontent.com/u/15183620?v=4" width="100;" alt="david-webber"/>
             <br />
-            <sub><b>david-webber</b></sub>
+            <sub><b>David-webber</b></sub>
         </a>
     </td>
     <td align="center">
@@ -68,7 +68,7 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
         <a href="https://github.com/TiagoSansao">
             <img src="https://avatars0.githubusercontent.com/u/63156329?v=4" width="100;" alt="TiagoSansao"/>
             <br />
-            <sub><b>Tiago Sansão</b></sub>
+            <sub><b>Tiago SansC#o</b></sub>
         </a>
     </td></tr>
 </table>
