@@ -14,9 +14,13 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
  
  A live demo of the project could be found [here!]
  
- # Goal
- 
- My main goal with this project was to practice neumorphistic design, and make something cool while doing it!
+# Contributors
+
+## Special thanks to these awesome contributors. If you'd like to contribut, make sure to read the [Contrbuting] file.
+
+<!-- readme: contributors -start -->
+
+<!-- readme: contributors -end -->
   
   
  [Code of Conduct]: https://github.com/harshhhdev/app-idea-generator/blob/master/CODE_OF_CONDUCT.md
