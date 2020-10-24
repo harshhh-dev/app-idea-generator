@@ -16,7 +16,7 @@ This was made for #Hacktoberfest2020, and all contributions are welcome!
  
 # Contributors
 
-## Special thanks to these awesome contributors. If you'd like to contribut, make sure to read the [Contrbuting] file.
+## Special thanks to these awesome contributors. If you'd like to contribute, make sure to read the [Contributing] file.
 
 <!-- readme: contributors -start -->
 
