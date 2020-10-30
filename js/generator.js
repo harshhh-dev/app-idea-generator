@@ -82,7 +82,8 @@ let app = [
     'Dashlane',
     'LastPass',
     'Strava',
-    'TikTok'
+    'TikTok',
+    'Telegram',
 ]
 
 let thing = [
@@ -171,7 +172,10 @@ let thing = [
     'creating content',
     'watch a movie',
     'working',
-    'writing'
+    'writing',
+    'computers',
+    'building blocks',
+    'flowers',
 ]
 
 
