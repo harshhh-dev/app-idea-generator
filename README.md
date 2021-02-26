@@ -2,7 +2,7 @@
 
 App idea generator - originally made for [Hactoberfest 2020](https://hacktoberfest.digitalocean.com/), now redone in Svelte.
 
-[*Read about my experience using Svelte for the first time*](https://harshhhdev.github.io/blog/my-experience-with-svelte)
+[_Read about my experience using Svelte for the first time_](https://harshhhdev.github.io/blog/5-my-experience-with-svelte/)
 
 # 🚀 Building locally
 

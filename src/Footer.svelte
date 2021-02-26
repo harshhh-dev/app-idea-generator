@@ -13,7 +13,7 @@
   </div>
   <a
     class="blog"
-    href="https://harshhhdev.github.io/blog/my-experience-with-svelte"
+    href="https://harshhhdev.github.io/blog/5-my-experience-with-svelte/"
     >Check out my Blog</a
   >
 </footer>
