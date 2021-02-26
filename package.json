@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "app-idea-generator",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
