@@ -193,7 +193,7 @@
       document.querySelector('.idea-copy').innerText = 'Click to copy'
       document.querySelector(
         '.idea'
-      ).innerText = `An ${apps[appType]} for ${audience[thingType]}.`
+      ).innerText = `A ${apps[appType]} for ${audience[thingType]}.`
     }
   }
 
