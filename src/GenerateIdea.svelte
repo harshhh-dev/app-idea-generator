@@ -1,4 +1,5 @@
-let app = [
+<script>
+  const apps = [
     'Facebook',
     'Linkedin',
     'Tinder',
@@ -82,10 +83,10 @@ let app = [
     'Dashlane',
     'LastPass',
     'Strava',
-    'TikTok'
-]
+    'TikTok',
+  ]
 
-let thing = [
+  const audience = [
     'vintage lovers',
     'finding good movies',
     'finding flight tickets',
@@ -171,41 +172,114 @@ let thing = [
     'creating content',
     'watch a movie',
     'working',
-    'writing'
-]
+    'writing',
+  ]
 
-
-const checkLS = () => {
-    let idea = localStorage.getItem('idea');
-    if (idea) {
-        document.getElementById('idea').innerHTML = idea;
+  const GenerateAppIdea = () => {
+    let appType = Math.floor(Math.random() * apps.length)
+    let thingType = Math.floor(Math.random() * audience.length)
+    if (
+      apps[appType].startsWith('A') ||
+      apps[appType].startsWith('E') ||
+      apps[appType].startsWith('I') ||
+      apps[appType].startsWith('O') ||
+      apps[appType].startsWith('U')
+    ) {
+      document.querySelector('.idea-copy').innerText = 'Click to copy'
+      document.querySelector(
+        '.idea'
+      ).innerText = `An ${apps[appType]} for ${audience[thingType]}.`
+    } else {
+      document.querySelector('.idea-copy').innerText = 'Click to copy'
+      document.querySelector(
+        '.idea'
+      ).innerText = `An ${apps[appType]} for ${audience[thingType]}.`
     }
-    let color = localStorage.getItem("theme");
-    checkColorScheme(color);
-}
+  }
 
- 
-window.onload = function(){
-    let reloading = sessionStorage.getItem("initialLoad");
-    if(reloading){
-        checkLS();
-    }
-}
+  const CopyIdea = () => {
+    var idea = document.createElement('textarea')
+    idea.value = document.querySelector('p.idea').innerText
+    idea.setAttribute('readonly', '')
+    idea.style = { position: 'absolute', left: '-9999px' }
+    document.body.appendChild(idea)
+    idea.select()
+    document.execCommand('copy')
+    document.querySelector('.idea-copy').innerText = 'Copied'
+    document.body.removeChild(idea)
+  }
+</script>
 
+<div class="idea-container" on:click={() => CopyIdea()}>
+  <div class="idea-copy">Click to copy</div>
+  <p class="idea">/* Ideas for the next Google */</p>
+</div>
+<button on:click={() => GenerateAppIdea()}>New Idea</button>
 
-const GenerateAppIdea = () => {
-    sessionStorage.setItem("initialLoad", "true");
-    let appType = Math.floor(Math.random() * app.length)
-    let thingType = Math.floor(Math.random() * thing.length)
-    if (app[appType].startsWith('A') || app[appType].startsWith('E') || app[appType].startsWith('I') || app[appType].startsWith('O') || app[appType].startsWith('U')) {
-        let appIdea = `An ${app[appType]} for ${thing[thingType]}.`
-        localStorage.setItem("idea", appIdea);
-        document.getElementById('idea').innerHTML = appIdea;
-    }
-    else {
-        let appIdea = `A ${app[appType]} for ${thing[thingType]}.`
-        localStorage.setItem("idea", appIdea);
-        document.getElementById('idea').innerHTML = appIdea;
-    }
+<style>
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #3269ff;
+    transition: 0.3s linear;
+    padding: 15px;
+    user-select: none;
+    border-radius: 7px;
+    width: 200px;
+  }
 
-}
+  button:hover {
+    transform: translateY(-2px);
+    background: #3269ff;
+    box-shadow: 0px 0px 20px 5px #00000050;
+    color: white;
+    cursor: pointer;
+  }
+
+  div.idea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p.idea {
+    background: -webkit-linear-gradient(180deg, #8026c7, #f40385);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    transition: 0.3s linear opacity;
+  }
+
+  p.idea:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  div.idea-container:hover div.idea-copy {
+    display: flex;
+    visibility: visible;
+    opacity: 1 !important;
+  }
+
+  div.idea-copy {
+    position: absolute;
+    visibility: hidden;
+    margin-top: -5%;
+    opacity: 0;
+    font-size: 24px;
+    background: -webkit-linear-gradient(180deg, #000000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s linear;
+  }
+</style>

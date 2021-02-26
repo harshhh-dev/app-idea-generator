@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Inter:300,400,500,600,800');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+}
